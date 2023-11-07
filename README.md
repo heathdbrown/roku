@@ -1,6 +1,6 @@
-# Roku_cli.py
+# Roku Cli app
 
-> Python script for messing with the roku from the cli
+> Python cli tool that uses the Roku ECP for commands and queries
 
 
 ## Table of Contents
