@@ -23,32 +23,47 @@ This is what followed...
 
 ## Prerequisites
 
-* Python 2.7+
-* pip
+* Python 3.11+
+* pipx
 * git
+* hatch
 
 ## Install
 
 ```
-git clone <>
-cd <>
-pip install -r requirements.txt
+pipx install git+https://github.com/heathdbrown/roku
 ```
 
 ## Usage
 
 ```
-roku_cli.py ! find the roku
+roku device <IP>
 
-roku_cli.py <roku IP> --channels
+roku apps <IP>
 ```
 
-| Options | Usage |
-|---------|-------|
-| none    | Attempt to find the roku by sedning multicast M-SEARCH |
-| --channels | List out the channels|
-| --active-channel | Grab the active channel on the roku |
-|
+## Development / Quick Usage
+
+- Install 'hatch' if not already installed
+
+```bash
+pipx install hatch
+```
+
+- Git clone
+
+```bash
+git clone https://github.com/heathdbrown/roku.git
+cd roku
+hatch shell
+```
+
+### Day 2 Development
+
+```bash
+cd roku
+hatch shell
+```
 
 ## Contribute
 
