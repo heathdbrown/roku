@@ -27,6 +27,8 @@ dependencies = [
   "click",
   "requests",
   "xmltodict",
+  "ssdp",
+  "pygments"
 ]
 dynamic = ["version"]
 
